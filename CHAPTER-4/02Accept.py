@@ -1,0 +1,17 @@
+marks=[]
+mrk1=int(input("Enter the marks of Swastik:"))
+marks.append(mrk1)
+mrk2=int(input("Enter the marks of Rahul:"))
+marks.append(mrk2)
+mrk3=int(input("Enter the marks of Virat:"))
+marks.append(mrk3)
+mrk4=int(input("Enter the marks of Amit:"))
+marks.append(mrk4)
+mrk5=int(input("Enter the marks of Ben:"))
+marks.append(mrk5)
+mrk6=int(input("Enter the marks of Bishnoi:"))
+marks.append(mrk6)
+print("Before sorting:",marks)
+marks.sort()
+print("After sorting",marks)
+
