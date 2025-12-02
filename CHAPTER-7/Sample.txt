@@ -1,0 +1,3 @@
+Hello world
+This is Python programming
+File handling is useful

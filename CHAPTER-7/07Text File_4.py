@@ -1,0 +1,6 @@
+file=open("poem.txt","r")
+text=file.read()
+new_word=text.replace("the","them")
+file=open("poem.txt","w")
+file.write(new_word)
+print(new_word)
